@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "Open and Closet",
+    "owner": "open-and-closet-org",
+    "slug": "open-and-closet",
+    "version": "1.0.0",
+    "description": "Dein virtueller Kleiderschrank",
+    "orientation": "portrait",
+    "icon": "./src/assets/appIcon.png",
+    "splash": {
+      "image": "./src/assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffd700"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
